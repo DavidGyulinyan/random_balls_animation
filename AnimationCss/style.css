@@ -9,6 +9,8 @@ body {
 }
 
 .parent {
+    width: 100%;
+    height: 100vh;
     position: relative;
 }
 
@@ -19,13 +21,8 @@ body {
     border-radius: 50%;
 }
 
-
-
 .item1 {
-    animation-name: itemRandomMove;
-    animation-duration: 6s;
-    animation-direction: linear;
-    animation-iteration-count: infinite;
+    animation: itemRandomMove 6s linear infinite;
 }
 
 @keyframes itemRandomMove {
@@ -37,6 +34,7 @@ body {
         -webkit-box-shadow: 0px 0px 23px 2px rgb(0, 186, 186);
         box-shadow: 0px 0px 23px 2px rgb(0, 186, 186);
     }
+
     15% {
         left: 200px;
         top: 400px;
@@ -45,24 +43,26 @@ body {
         -webkit-box-shadow: 0px 0px 23px 2px rgb(0, 40, 134);
         box-shadow: 0px 0px 23px 2px rgb(0, 40, 134);
     }
+
     35% {
         left: 300px;
         top: 100px;
 
-        
+
         background-color: rgb(42, 0, 156);
         -webkit-box-shadow: 0px 0px 23px 2px rgb(42, 0, 156);
         box-shadow: 0px 0px 23px 2px rgb(42, 0, 156);
     }
+
     55% {
         left: 600px;
         top: 500px;
 
-        
         background-color: rgb(123, 3, 159);
         -webkit-box-shadow: 0px 0px 23px 2px rgb(123, 3, 159);
         box-shadow: 0px 0px 23px 2px rgb(123, 3, 159);
     }
+
     75% {
         left: 900px;
         top: 350px;
@@ -71,6 +71,7 @@ body {
         -webkit-box-shadow: 0px 0px 23px 2px rgb(128, 19, 84);
         box-shadow: 0px 0px 23px 2px rgb(128, 19, 84);
     }
+
     85% {
         left: 1340px;
         top: 350px;
@@ -79,6 +80,7 @@ body {
         -webkit-box-shadow: 0px 0px 23px 2px rgb(128, 19, 84);
         box-shadow: 0px 0px 23px 2px rgb(128, 19, 84);
     }
+
     100% {
         left: 300px;
         top: 300px;
@@ -91,10 +93,7 @@ body {
 
 
 .item2 {
-    animation-name: itemRandomMove_item2;
-    animation-duration: 6s;
-    animation-direction: linear;
-    animation-iteration-count: infinite;
+    animation: itemRandomMove_item2 6s linear infinite;
 }
 
 @keyframes itemRandomMove_item2 {
@@ -106,6 +105,7 @@ body {
         -webkit-box-shadow: 0px 0px 23px 2px rgb(0, 186, 186);
         box-shadow: 0px 0px 23px 2px rgb(0, 186, 186);
     }
+
     15% {
         left: 400px;
         top: 200px;
@@ -114,24 +114,27 @@ body {
         -webkit-box-shadow: 0px 0px 23px 2px rgb(0, 40, 134);
         box-shadow: 0px 0px 23px 2px rgb(0, 40, 134);
     }
+
     35% {
         left: 100px;
         top: 300px;
 
-        
+
         background-color: rgb(42, 0, 156);
         -webkit-box-shadow: 0px 0px 23px 2px rgb(42, 0, 156);
         box-shadow: 0px 0px 23px 2px rgb(42, 0, 156);
     }
+
     55% {
         left: 500px;
         top: 600px;
 
-        
+
         background-color: rgb(123, 3, 159);
         -webkit-box-shadow: 0px 0px 23px 2px rgb(123, 3, 159);
         box-shadow: 0px 0px 23px 2px rgb(123, 3, 159);
     }
+
     75% {
         left: 350px;
         top: 500px;
@@ -140,6 +143,7 @@ body {
         -webkit-box-shadow: 0px 0px 23px 2px rgb(3, 129, 22);
         box-shadow: 0px 0px 23px 2px rgb(3, 129, 22);
     }
+
     85% {
         left: 340px;
         top: 350px;
@@ -148,6 +152,7 @@ body {
         -webkit-box-shadow: 0px 0px 23px 2px rgb(128, 19, 84);
         box-shadow: 0px 0px 23px 2px rgb(128, 19, 84);
     }
+
     100% {
         left: 700px;
         top: 500px;
@@ -158,12 +163,8 @@ body {
     }
 }
 
-
 .item3 {
-    animation-name: itemRandomMove_item3;
-    animation-duration: 6s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    animation: itemRandomMove_item3 6s linear infinite;
 }
 
 @keyframes itemRandomMove_item3 {
@@ -175,6 +176,7 @@ body {
         -webkit-box-shadow: 0px 0px 23px 2px rgb(0, 186, 186);
         box-shadow: 0px 0px 23px 2px rgb(0, 186, 186);
     }
+
     15% {
         left: 852px;
         top: 567px;
@@ -183,24 +185,27 @@ body {
         -webkit-box-shadow: 0px 0px 23px 2px rgb(0, 40, 134);
         box-shadow: 0px 0px 23px 2px rgb(0, 40, 134);
     }
+
     35% {
         left: 487px;
         top: 435px;
 
-        
+
         background-color: rgb(42, 0, 156);
         -webkit-box-shadow: 0px 0px 23px 2px rgb(42, 0, 156);
         box-shadow: 0px 0px 23px 2px rgb(42, 0, 156);
     }
+
     55% {
         left: 758px;
         top: 1px;
 
-        
+
         background-color: rgb(123, 3, 159);
         -webkit-box-shadow: 0px 0px 23px 2px rgb(123, 3, 159);
         box-shadow: 0px 0px 23px 2px rgb(123, 3, 159);
     }
+
     75% {
         left: 510px;
         top: 184px;
@@ -209,6 +214,7 @@ body {
         -webkit-box-shadow: 0px 0px 23px 2px rgb(3, 129, 22);
         box-shadow: 0px 0px 23px 2px rgb(3, 129, 22);
     }
+
     85% {
         left: 443px;
         top: 170px;
@@ -217,6 +223,7 @@ body {
         -webkit-box-shadow: 0px 0px 23px 2px rgb(128, 19, 84);
         box-shadow: 0px 0px 23px 2px rgb(128, 19, 84);
     }
+
     100% {
         left: 234px;
         top: 250px;
@@ -228,10 +235,7 @@ body {
 }
 
 .item4 {
-    animation-name: itemRandomMove_item4;
-    animation-duration: 6s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    animation: itemRandomMove_item4 6s linear infinite;
 }
 
 @keyframes itemRandomMove_item4 {
@@ -243,6 +247,7 @@ body {
         -webkit-box-shadow: 0px 0px 23px 2px rgb(0, 186, 65);
         box-shadow: 0px 0px 23px 2px rgb(0, 186, 136);
     }
+
     15% {
         left: 521px;
         top: 367px;
@@ -251,24 +256,27 @@ body {
         -webkit-box-shadow: 0px 0px 23px 2px rgb(110, 216, 34);
         box-shadow: 0px 0px 23px 2px rgb(62, 200, 20);
     }
+
     35% {
         left: 874px;
         top: 354px;
 
-        
+
         background-color: rgb(156, 88, 0);
         -webkit-box-shadow: 0px 0px 23px 2px rgb(125, 141, 19);
         box-shadow: 0px 0px 23px 2px rgb(30, 86, 9);
     }
+
     55% {
         left: 583px;
         top: 130px;
 
-        
+
         background-color: rgb(125, 159, 3);
         -webkit-box-shadow: 0px 0px 23px 2px rgb(94, 140, 41);
         box-shadow: 0px 0px 23px 2px rgb(3, 159, 60);
     }
+
     75% {
         left: 103px;
         top: 384px;
@@ -277,6 +285,7 @@ body {
         -webkit-box-shadow: 0px 0px 23px 2px rgb(104, 3, 129);
         box-shadow: 0px 0px 23px 2px rgb(129, 3, 87);
     }
+
     85% {
         left: 332px;
         top: 475px;
@@ -285,6 +294,7 @@ body {
         -webkit-box-shadow: 0px 0px 23px 2px rgb(63, 5, 40);
         box-shadow: 0px 0px 23px 2px rgb(49, 6, 32);
     }
+
     100% {
         left: 340px;
         top: 105px;
@@ -296,10 +306,7 @@ body {
 }
 
 .item5 {
-    animation-name: itemRandomMove_item5;
-    animation-duration: 7s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    animation: itemRandomMove_item5 7s linear infinite;
 }
 
 @keyframes itemRandomMove_item5 {
@@ -311,6 +318,7 @@ body {
         -webkit-box-shadow: 0px 0px 23px 2px rgb(11, 63, 63);
         box-shadow: 0px 0px 23px 2px rgb(5, 58, 88);
     }
+
     15% {
         left: 529px;
         top: 167px;
@@ -319,24 +327,27 @@ body {
         -webkit-box-shadow: 0px 0px 23px 2px rgb(26, 136, 156);
         box-shadow: 0px 0px 23px 2px rgb(43, 84, 180);
     }
+
     35% {
         left: 764px;
         top: 634px;
 
-        
+
         background-color: rgb(0, 94, 156);
         -webkit-box-shadow: 0px 0px 23px 2px rgb(0, 5, 156);
         box-shadow: 0px 0px 23px 2px rgb(156, 0, 130);
     }
+
     55% {
         left: 1303px;
         top: 30px;
 
-        
+
         background-color: rgb(123, 3, 159);
         -webkit-box-shadow: 0px 0px 23px 2px rgb(3, 159, 115);
         box-shadow: 0px 0px 23px 2px rgb(13, 3, 159);
     }
+
     75% {
         left: 1203px;
         top: 584px;
@@ -345,6 +356,7 @@ body {
         -webkit-box-shadow: 0px 0px 23px 2px rgb(129, 106, 3);
         box-shadow: 0px 0px 23px 2px rgb(129, 125, 3);
     }
+
     85% {
         left: 832px;
         top: 475px;
@@ -353,6 +365,7 @@ body {
         -webkit-box-shadow: 0px 0px 23px 2px rgb(128, 121, 19);
         box-shadow: 0px 0px 23px 2px rgb(129, 122, 47);
     }
+
     100% {
         left: 40px;
         top: 5px;
